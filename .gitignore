@@ -1,6 +1,15 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
-
+[Oo]bj/
+[Bb]in/
+*.user
+/TestResults
+*.vspscc
+*.vssscc
+deploy
+deploy/*
+publish
+publish/*
+*.suo
+*.cache
 # mstest test results
 TestResults
