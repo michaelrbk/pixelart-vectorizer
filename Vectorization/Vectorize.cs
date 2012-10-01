@@ -574,7 +574,7 @@ namespace PixelArtUpScaler
         /*
          * Detectar os ciclos dentro do grafo para transforma-los em objetos coloridos
          */
-        internal String CreateObjects()
+        internal String CreateShapes()
         {
             Shapes shapes = new Shapes();
             Shape shape = new Shape();

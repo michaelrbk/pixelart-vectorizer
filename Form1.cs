@@ -304,7 +304,7 @@ namespace PixelArtUpScaler
             //System.Diagnostics.Process.Start(grafo.ReshapePixelCell());
             //System.Diagnostics.Process.Start(grafo.DrawNewGraphEdges());
             //System.Diagnostics.Process.Start(grafo.DrawNewCurves());
-            System.Diagnostics.Process.Start(grafo.CreateObjects());
+            System.Diagnostics.Process.Start(grafo.CreateShapes());
             grafo = null;
         }
 
