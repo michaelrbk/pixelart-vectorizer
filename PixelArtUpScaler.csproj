@@ -90,7 +90,7 @@
     <Compile Include="Image\Pixel.cs" />
     <Compile Include="Vectorization\Shape.cs" />
     <Compile Include="Vectorization\Curve.cs" />
-    <Compile Include="Vectorization\EdgeTagcs.cs" />
+    <Compile Include="Vectorization\EdgeTag.cs" />
     <Compile Include="Vectorization\PointD.cs" />
     <Compile Include="Vectorization\Shapes.cs" />
     <Compile Include="Vectorization\SvgVector.cs" />
