@@ -139,19 +139,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\test_original.bmp" />
+    <None Include="Resources\testOriginal.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\megaman.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mslug2-1.png" />
+    <None Include="Resources\mslug.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\sq_orig.png" />
+    <None Include="Resources\testSquare.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mario_8bit.png" />
+    <None Include="Resources\mario8bit.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -174,6 +174,45 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\16p.bmp" />
+    <Content Include="Resources\16p_ziggyzag.bmp" />
+    <Content Include="Resources\1p.bmp" />
+    <Content Include="Resources\2p.bmp" />
+    <Content Include="Resources\2x2.bmp" />
+    <Content Include="Resources\6p.bmp" />
+    <Content Include="Resources\8p.bmp" />
+    <Content Include="Resources\9p.bmp" />
+    <Content Include="Resources\alladdin1.png" />
+    <Content Include="Resources\alladin.png" />
+    <Content Include="Resources\apu.png" />
+    <Content Include="Resources\bike.gif" />
+    <Content Include="Resources\bomberman.png" />
+    <Content Include="Resources\chipnDale.gif" />
+    <Content Include="Resources\curves.bmp" />
+    <Content Include="Resources\curves_loop.bmp" />
+    <Content Include="Resources\dolphin.png" />
+    <Content Include="Resources\dolphin_kopf.png" />
+    <Content Include="Resources\donaldDuck.gif" />
+    <Content Include="Resources\duckHunt.gif" />
+    <Content Include="Resources\earthBound.gif" />
+    <Content Include="Resources\ffvTifaOverworld.gif" />
+    <Content Include="Resources\ghost.png" />
+    <Content Include="Resources\help.png" />
+    <Content Include="Resources\advancedWars.png" />
+    <Content Include="Resources\link.gif" />
+    <Content Include="Resources\mage.gif" />
+    <Content Include="Resources\marioHino.gif" />
+    <Content Include="Resources\megaman.bmp" />
+    <Content Include="Resources\mushroom.png" />
+    <Content Include="Resources\pacman.png" />
+    <Content Include="Resources\pacmanGhost.bmp" />
+    <Content Include="Resources\randam.png" />
+    <Content Include="Resources\superMarioBros3.gif" />
+    <Content Include="Resources\superMarioKart.png" />
+    <Content Include="Resources\thomas.png" />
+    <Content Include="Resources\marioTurtle.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

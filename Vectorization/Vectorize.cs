@@ -417,7 +417,7 @@ namespace PixelArtUpScaler
         }
 
 
-        internal String DrawNewCurves()
+        internal String CreateNewCurves()
         {
 
             bool hasEdge = true;
@@ -574,7 +574,7 @@ namespace PixelArtUpScaler
         /*
          * Detectar os ciclos dentro do grafo para transforma-los em objetos coloridos
          */
-        internal String DrawNewImage()
+        internal String CreateObjects()
         {
             Shapes shapes = new Shapes();
             Shape shape = new Shape();

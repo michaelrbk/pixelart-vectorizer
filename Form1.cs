@@ -268,17 +268,20 @@ namespace PixelArtUpScaler
         {
 
             Random rnd = new Random();
-            switch (rnd.Next(6) + 1)
+            switch (rnd.Next(8) + 1)
             {
-                case 1: OriImg = PixelArtUpScaler.Properties.Resources.mslug2_1; break;
+                case 1: OriImg = PixelArtUpScaler.Properties.Resources.mslug; break;
                 case 2: OriImg = PixelArtUpScaler.Properties.Resources.megaman; break;
-                case 3: OriImg = PixelArtUpScaler.Properties.Resources.sq_orig; break;
-                case 4: OriImg = PixelArtUpScaler.Properties.Resources.mario_8bit; break;
-                default: OriImg = PixelArtUpScaler.Properties.Resources.test_original; break;
+                case 3: OriImg = PixelArtUpScaler.Properties.Resources.testSquare; break;
+                case 4: OriImg = PixelArtUpScaler.Properties.Resources.mario8bit; break;
+                case 5: OriImg = PixelArtUpScaler.Properties.Resources.superMarioBros3; break;
+                case 6: OriImg = PixelArtUpScaler.Properties.Resources.superMarioKart; break;
+                case 7: OriImg = PixelArtUpScaler.Properties.Resources.mage; break;
+                default: OriImg = PixelArtUpScaler.Properties.Resources.testOriginal; break;
             }
             //Utiliza sempre o Mario como exemplo
-            OriImg = PixelArtUpScaler.Properties.Resources.mario_8bit;
-            Zoom = 5;
+            //OriImg = PixelArtUpScaler.Properties.Resources.mario8bit;
+            Zoom = 2;
             ImgScale = 1;
             DstImg = new Bitmap(2, 2);
             refreshImages();
@@ -295,13 +298,13 @@ namespace PixelArtUpScaler
             c = grafo.SolveAmbiguities();
             c = grafo.ReshapePixelCell();
             c = grafo.DrawNewGraphEdges();
-            c = grafo.DrawNewCurves();
+            c = grafo.CreateNewCurves();
             //System.Diagnostics.Process.Start(grafo.ImageToGraph(OriImg));
             //System.Diagnostics.Process.Start(grafo.SolveAmbiguities());
             //System.Diagnostics.Process.Start(grafo.ReshapePixelCell());
             //System.Diagnostics.Process.Start(grafo.DrawNewGraphEdges());
             //System.Diagnostics.Process.Start(grafo.DrawNewCurves());
-            System.Diagnostics.Process.Start(grafo.DrawNewImage());
+            System.Diagnostics.Process.Start(grafo.CreateObjects());
             grafo = null;
         }
 
