@@ -199,6 +199,7 @@ namespace PixelArtUpScaler
             {
                 ArrayList p = new ArrayList(); ;
 
+                //Tratamento para os primeiros e os ultimos pontos da curva
                 if (i == 0)
                 {
                     p.Add(new Point(((Pixel)points[i]).x, ((Pixel)points[i]).y));
@@ -221,7 +222,7 @@ namespace PixelArtUpScaler
                     p.Add(new Point(((Pixel)points[i + 2]).x, ((Pixel)points[i + 2]).y));
                 }
 
-                // Catmull-Rom to Cubic Bezier conversion matrix 
+                // Catmull-Rom para Cubic Bezier Matriz de conversão simplificada
                 //    0       1       0       0
                 //  -1/6      1      1/6      0
                 //    0      1/6      1     -1/6
