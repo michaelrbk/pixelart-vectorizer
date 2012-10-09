@@ -171,7 +171,7 @@ namespace PixelArtUpScaler
                     
                     
                 }
-                svg.DrawPath(color, Color.Black, 0.01, data);
+                svg.DrawPath(color, color, 0.01, data);
                 
             }
             /*

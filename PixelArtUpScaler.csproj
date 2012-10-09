@@ -24,7 +24,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -209,6 +209,7 @@
     <Content Include="Resources\pacman.png" />
     <Content Include="Resources\pacmanGhost.bmp" />
     <Content Include="Resources\randam.png" />
+    <None Include="Resources\spaceInvader.bmp" />
     <Content Include="Resources\superMarioBros3.gif" />
     <Content Include="Resources\superMarioKart.png" />
     <Content Include="Resources\thomas.png" />

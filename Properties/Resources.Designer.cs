@@ -347,6 +347,13 @@ namespace PixelArtUpScaler.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap spaceInvaders {
+            get {
+                object obj = ResourceManager.GetObject("spaceInvaders", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap superMarioBros3 {
             get {
                 object obj = ResourceManager.GetObject("superMarioBros3", resourceCulture);
