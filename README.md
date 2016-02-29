@@ -13,6 +13,8 @@ Software que aplica algumas técnicas de aumento de escala de pixel art e aprese
 * Desenvolve seu próprio algoritmo para vetorização de pixel arts
 
 
+
+
 Copyright [2013] [Michael de Rezende Becker]
 
 Licensed under the Apache License, Version 2.0 (the "License");
